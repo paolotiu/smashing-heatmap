@@ -374,4 +374,8 @@ ul li {
     .spotlights-container {
         grid-template-columns: 1fr;
     }
+    .articles-container {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-flow: row;
+    }
 }
